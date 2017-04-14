@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yazdaniscodelab.intentusingbundle.SecondActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffff"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/text_one_xml"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_one_xml"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:padding="20dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/text_two_xml"
+        />
+
+</RelativeLayout>
